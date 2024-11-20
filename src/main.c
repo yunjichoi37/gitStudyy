@@ -30,5 +30,8 @@ int main(int argc, char *argv[])
     for (int i = optind; i < argc; ++i) {
         printf("positional argument: %s\n", argv[i]);
     }
+
+    printf("오늘 수업 11월 20일\n");
+
     return 0;
 }
